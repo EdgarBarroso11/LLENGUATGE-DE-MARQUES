@@ -30,3 +30,7 @@
     background-color: #808080;
     color: #ffffff;
 }
+
+td, th {
+    text-align: center;
+}
