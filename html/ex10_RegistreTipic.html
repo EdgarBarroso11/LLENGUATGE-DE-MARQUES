@@ -1,0 +1,35 @@
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./../../css/PRACTICA1/ex3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="la meva pagina web">
+        <meta name="author" content="EDGAR">
+        <title>Formulari</title>
+    </head>
+
+    <body>
+        <h1>FORMULARI DE REGISTRE</h1>
+        <form action=".login.php" method="post">
+        <p>
+            <input type="text" id="nomuser" name="nomuser" placeholder="Introdueix el teu nom" autofocus size="50" maxlength="100" required>
+        </p>
+        <p>
+            <input type="email" id="correu" name="correu" placeholder="Introdueix el teu correu electronic" size="50" maxlength="100" required>
+        </p>
+        <p>
+            <input type="password" id="password" name="password" placeholder="Introdueix la teva contrasenya" size="30" minlength="8" required>
+        </p>
+        <p>
+            <textarea id="missatge" name="missatge" placeholder="Introdueix el teu missatge" rows="5" cols="25" maxlength="500" required>
+            </textarea>
+        </p>
+        <p>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Accepto els termes i condicions</label>
+        </p>
+        <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

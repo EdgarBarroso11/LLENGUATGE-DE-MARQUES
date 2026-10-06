@@ -1,0 +1,14 @@
+*{ 
+    margin: 0em; 
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+    padding: size;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
