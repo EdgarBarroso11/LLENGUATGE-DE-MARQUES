@@ -7,11 +7,42 @@
 
 }
 
+body{
+    margin: 7%;
+    margin-top: 1%;
+    background-color: rgb(182, 183, 185);
+}
+
 h1{
     margin: 16px;
     padding: 32px;
-    border: 1px solid red;
+    text-align: center;
+    font-size: 4em;
 }
 
+.noticia1{
+    margin: 2%;
+    width: 20em;
+}
+.noticiafoto1{
+    width: 20em;
+    height: auto;
+}
 
+.noticia2{
+    margin: 2%;
+    width: 20em;
+}
+.noticiafoto2{
+    width: 20em;
+    height: auto;
+}
+
+main h2{
+    font-size: 2.5em;
+}
+
+.noticies h2{
+    font-size: 2em;
+}
 

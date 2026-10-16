@@ -4,11 +4,28 @@
 
     text-decoration: none;
     list-style: none;
-    padding: size;
+    padding:1%;
+}
 
+body{
+        background-image:url(./../img/fons.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
 }
 
 h1{
     text-align: center;
     font-size: 3em;
+    font-style:italic;
+}
+
+li{
+    list-style-type:circle;
+    color:red;
+    font-size:large;
+}
+
+ul{
+    padding: 10%;
 }

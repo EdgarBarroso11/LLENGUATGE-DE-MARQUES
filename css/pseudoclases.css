@@ -1,0 +1,79 @@
+a:visited{
+    background-color: red;
+    color: red;
+}
+
+a:link{
+    color:green
+}
+
+ul:hover{
+    background-color: blue;
+}
+li:active{
+    background-color: red;
+}
+
+
+input:required{
+    background-color: red;
+}
+
+input:optional{
+    background-color: green;
+}
+
+input:focus,textarea:focus{
+    background-color: yellow;
+}
+
+
+input:checked{
+    width: 2em;
+    height: 2em;
+}
+li:first-of-type{
+    background-color: blueviolet;
+}
+
+li:first-child{
+    background-color: chartreuse;
+}
+
+li:last-of-type{
+    background-color:wheat ;
+}
+
+li:last-child{
+    background-color: violet;
+}
+
+
+li:nth-of-type(3){
+    background-color: chocolate;
+}
+
+li:nth-child(3){
+    background-color: brown;
+}
+
+h2::after{
+    content:"RECORDA!";
+    background-color: yellow;
+}
+/* h2::before{
+    content:"IMPORTANT ";
+    background-color: yellow;
+} */
+
+h2::first-letter{
+    font-size: 200%;
+}
+
+h2::first-line{
+    color:aqua;
+}
+
+h2::selection{
+    background-color:red;
+}
